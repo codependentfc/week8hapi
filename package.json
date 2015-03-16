@@ -1,0 +1,22 @@
+{
+  "name": "hapiexample",
+  "version": "1.0.0",
+  "description": "## REST",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codependentfc/week8hapi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codependentfc/week8hapi/issues"
+  },
+  "homepage": "https://github.com/codependentfc/week8hapi",
+  "dependencies": {
+    "hapi": "^8.4.0"
+  }
+}
