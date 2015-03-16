@@ -42,7 +42,7 @@ server.route({
 // payload parse 'true' is the default value, but worth knowing about. Uses the content-type header to parse the payload. set to false if you want the raw payload.
 server.route({
     method: 'POST',
-    payload: {output: 'data', parse: true},
+    config: { payload: {output: 'data', parse: true} },
     path: '/',
     handler: function (request, reply) {
         // code here to handle new post
@@ -53,7 +53,7 @@ server.route({
 // PUT has a payload too..
 server.route({
     method: 'PUT',
-    payload: {output: 'data', parse: true},
+    config: { payload: {output: 'data', parse: true} },
     path: '/{id}',
     handler: function (request, reply) {
         // code here to handle post update
