@@ -15,9 +15,19 @@ One thing worth noting, (and covered in the article above), is how to work aroun
 >POST: /user/1?method=delete
 >The API can then convert the POST call into the appropriate method, and funnel it into the same route.
 
+See `server.js` for some fictional routes describing a basic blog.
+
 ## Hapi
 
 Nelson's [excellent resource](https://github.com/nelsonic/learn-hapi) should get you up and running.
 
 For further information see the [API docs](http://hapijs.com/api), and the [hapi tutorials](http://hapijs.com/tutorials).
+
+## Instructions
+
+1. Clone this repo
+
+2. run `npm install`
+
+3. run `node server.js`
 
