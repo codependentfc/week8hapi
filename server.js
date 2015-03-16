@@ -65,6 +65,7 @@ server.route({
     method: 'DELETE',
     path: '/{id}',
     handler: function (request, reply) {
+        // code here to delete post
         reply('Post '+request.params.id +' deleted');
     }
 });
